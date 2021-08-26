@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: none;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+h1{
+    font-size: 4rem;
+    padding: 3rem;
+}
+
+h2{
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+
+h3{
+    font-size: 2rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+p{
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+button{
+    margin-top: 3rem;
+    padding: 2rem;
+    font-size: 1.7rem;
+    border: 0.2rem solid gray;
+    background-color: rgb(48, 47, 47);
+    color: white;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    width: 85rem;
+}
+
+.header{
+    padding: 5rem;
+    background-image: url('./pic-1.jpg');
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 35rem;
+}
+
+.content{
+    padding: 4rem;
+    background-color: rgb(240, 236, 236);
+}
+
+.title{
+    padding-top: 2rem;
+}
+
+.text{
+    padding-bottom: 2rem;
+    column-gap: 3rem;
+    column-count: 2;
+
+}
+
+.main{
+    justify-content: center;
+    background-color: rgb(48, 47, 47);
+    display: flex;
+    padding: 1rem;
+}
+
+.web,
+.mobile,
+.tech{
+    background-color: white;
+    margin: 1rem;
+    width: 28rem;
+}
+
+.content-1{
+    padding: 2rem;
+}
+
+.pic-2{
+    width: 100%;
+}
+
+.pic-3{
+    width: 100%;
+}
+
+.pic-4{
+    width: 100%;
+}
+
+.extra{
+    padding: 4rem;
+}
+
+.info{
+    display: flex;
+    color: white;
+}
+
+.contact{
+    flex-grow: 1fr;
+    padding: 4rem;
+    background-color: cornflowerblue;
+}
+
+.link{
+    padding-top: 4rem;
+}
+
+.about{
+    flex-grow: 1fr;
+    padding: 4rem;
+    background-color: rgb(48, 47, 47);
+}
+
+.footer{
+    padding: 4rem;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.part-1{
+    flex-grow: 1;
+}
+
+.part-2{
+    display: flex;
+    flex-grow: 1;
+}
+
+.color{
+    padding-left: 0.5rem;
+    color: cornflowerblue;
+}
+
+@media only screen and (max-width: 700px){
+
+    .text{
+        column-count: 1;
+    }
+
+    .main{
+        display: block;
+    }
+
+    .web,
+    .mobile,
+    .tech{
+        margin: auto;
+        margin-top: 2rem;
+        width: 96%;
+    }
+
+    .tech{
+        margin-bottom: 2rem;
+    }
+
+    .info{
+        display: block;
+    }
+
+    .footer{
+        display: block;
+    }
+
+}
